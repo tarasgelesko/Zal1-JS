@@ -1,0 +1,52 @@
+<html>
+<head>
+    Заповніть масив випадковими додатніми та від'ємними числами. Напишіть для цього функцію Random(), яка повертатиме або від'ємне 
+    або додатне число.
+    За допомогою циклу занесіть ці значення в ваш масив. Виведіть, та подивіться чи в ньому присутні додатні та від'ємні числа.
+    Зробіть із нього новий масив, де залишаться лише додатні числа. Створіть для цього допоміжну функцію isPositive(), 
+    яка параметром прийматиме число і повертатиме true, якщо число додатне, і false - якщо від'ємне. Виведіть, та подивіться чи в
+     ньому присутні лише додатні числа.
+                 
+</head>
+<body>
+<script>
+
+let  masiv=[];
+let  masiv1=[];
+
+function random ()
+{
+let $a1 = Math.round(Math.random()*-6);
+
+let $a2 = Math.round(Math.random()*8);
+
+return $number = $a1+$a2;
+}
+for(i=0;i<8;i++) {
+masiv[i]=random()
+masiv.push[i];
+}
+console.log(masiv);
+
+
+function dodatni ($num){
+if ($num > 0){return true;}
+else {return false;}
+}
+for (i=0;i<=masiv.length;i++){
+  if (dodatni(masiv[i]))
+  {masiv1.push(masiv[i]);}
+}
+
+console.log(masiv1);
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
